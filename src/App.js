@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-
+import Headers from './components/Header';
+import Footers from './components/Footer';
 class App extends Component {
   render() {
     return (
       <div className="App">
-         <h1>ELECTRON + REACT</h1>
+         <Headers />
+         <Footers />
       </div>
     );
   }
